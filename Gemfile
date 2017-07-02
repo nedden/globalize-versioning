@@ -15,6 +15,7 @@ elsif ENV['RAILS'] == "4.1"
   gem 'activemodel', '~> 4.1.0'
   gem 'globalize', '~> 4.0'
 else # Rails 5
+  gem 'activerecord'
   gem 'globalize'
   gem 'paper_trail'
 end
